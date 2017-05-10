@@ -1,0 +1,33 @@
+{
+  "name": "keyvalue-xyz",
+  "version": "1.0.0",
+  "description": "Unofficial keyvalue.xyz client",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 5000 tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattmcneeney/keyvalue-xyz.git"
+  },
+  "keywords": [
+    "keyvalue",
+    "storage",
+    "key",
+    "value",
+    "store"
+  ],
+  "author": "mattmcneeney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattmcneeney/keyvalue-xyz/issues"
+  },
+  "homepage": "https://github.com/mattmcneeney/keyvalue-xyz#readme",
+  "dependencies": {
+    "request": "2.81.0"
+  },
+  "devDependencies": {
+    "mocha": "3.3.0",
+    "should": "11.2.1"
+  }
+}
