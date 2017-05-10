@@ -1,6 +1,6 @@
 {
   "name": "keyvalue-xyz",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unofficial keyvalue.xyz client",
   "main": "index.js",
   "scripts": {
