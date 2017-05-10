@@ -30,7 +30,7 @@ kvs.getValueForKey(token, key, function(error, value) {
 });
 
 // Getting the JSON value for a key
-kvs.setJSONForKey(token, key, jsonValue, function(error, value) {
+kvs.getJSONForKey(token, key,, function(error, value) {
     // error: any error that has occurred
     // value: the JSON value for the provided key
 });
